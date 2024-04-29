@@ -430,3 +430,30 @@ footer {
 footer p {
   text-align: center;
 }
+
+#role {
+  font-size: 20px;
+  border-right: 2px solid orange; /* Cursor effect */
+  padding-right: 5px;
+  animation: blink 1s step-end infinite;
+  color: #ff4500; /* Or any vibrant color you like */
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem; /* or your preferred size */
+  font-weight: 700; /* Bold for the name */
+}
+
+.section__text__p2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem; /* or your preferred size */
+  font-weight: 400; /* Regular weight for the title */
+}
+
+/* Remove the keyframes for blinking cursor */

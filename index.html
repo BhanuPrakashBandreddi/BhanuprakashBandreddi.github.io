@@ -7,6 +7,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <nav id="desktop-nav">
@@ -43,18 +45,15 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Bhanu Prakash Bandreddi</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p2" id="role"></p> <!-- Empty initially -->
         <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
-          >
-            Download Resume
-          </button>
-          <button class="btn btn-color-1" onclick="window.open('./#contact', '_blank')">
-            Contact Info
-          </button>
-          </div>
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                Download Resume
+            </button>
+            <button class="btn btn-color-1" onclick="window.open('./#contact', '_blank')">
+                Contact Info
+            </button>
+        </div>
           <div id="socials-container">
             <img
               src="./assets/linkedin.png"
