@@ -329,8 +329,24 @@ section {
 
 .experience-details-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Align children horizontally */
+  align-items: flex-start; /* Align children to the top */
+  flex-wrap: wrap; /* Wrap items to next line on small screens */
+}
+.details-container.programming-languages {
+  flex-basis: 30%; /* Take up 30% of the container's width */
+}
+
+.skills-container {
+  display: flex;
   flex-direction: column;
+  flex-basis: 65%; /* Take up the rest 65% of the container's width */
+}
+
+.details-container.frontend-development,
+.details-container.backend-tools,
+.details-container.design-optimization {
+  margin-bottom: 20px; /* Add space between the rows */
 }
 
 .article-container {
