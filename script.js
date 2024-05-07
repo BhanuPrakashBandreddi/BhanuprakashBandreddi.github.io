@@ -6,12 +6,7 @@ function toggleMenu() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  const roles = [
-    "Frontend Developer",
-    "Backend Developer",
-    "Web Developer",
-    "Full Stack Developer",
-  ];
+  const roles = ["Software Engineer", "Full Stack Developer", "Web Developer"];
   const roleElement = document.getElementById("role");
   let currentRole = 0;
   let charIndex = 0;
